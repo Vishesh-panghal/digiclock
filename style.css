@@ -18,7 +18,7 @@
     font-size: 2em;
 }
 
-.hours, .minutes, .second, .ampm{
+.time{
     display: flex;
     justify-content: center;
     width:4em;
@@ -54,6 +54,19 @@
         text-align: center;
         margin: 120px 120px;
         background-color: rgb(218, 214, 214);
+        box-shadow:  3px 3px 9px rgb(146 142 142), -3px -3px 9px rgb(255 250 250);
+    }
+    .time{
+        display: flex;
+        justify-content: center;
+        width:2em;
+        height: 2em;
+        background-color: rgb(218 214 214);
+        border-radius: 4px;
+        padding: 0.5em;
+        margin: 0.5em;
+        text-align: center;
+        align-items: center;
         box-shadow:  3px 3px 9px rgb(146 142 142), -3px -3px 9px rgb(255 250 250);
     }
 }
